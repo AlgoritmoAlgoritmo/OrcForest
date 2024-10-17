@@ -173,3 +173,291 @@ Received Import Request.
 Number of updated assets reloaded before import = 0
 Start importing Assets/Sprites/Wolf.png using Guid(73d753853c7039e4ab2082ba10e850b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5420ae31c5c163461fbabb696315b4d0') in 0.931498 seconds 
 Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 625.249490 seconds.
+  path: Assets/Sprites/RRH.png
+  artifactKey: Guid(edce5b48f1e5baa429e39662e5f95aca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/RRH.png using Guid(edce5b48f1e5baa429e39662e5f95aca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ca3a44f1a70b6cd173bb9b07c5e4f591') in 2.489051 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 16.221112 seconds.
+  path: Assets/Sprites/Wolf.png
+  artifactKey: Guid(73d753853c7039e4ab2082ba10e850b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/Wolf.png using Guid(73d753853c7039e4ab2082ba10e850b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6106e63b25dcc701426556cc50295cda') in 0.213667 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 209.763741 seconds.
+  path: Assets/Sprites/RRH.png
+  artifactKey: Guid(edce5b48f1e5baa429e39662e5f95aca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/RRH.png using Guid(edce5b48f1e5baa429e39662e5f95aca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '885cdbea019b57e1aa7371ef801516e5') in 0.058895 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 6.070937 seconds.
+  path: Assets/Sprites/Wolf.png
+  artifactKey: Guid(73d753853c7039e4ab2082ba10e850b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/Wolf.png using Guid(73d753853c7039e4ab2082ba10e850b0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '00bf26201a7398f84f404ab048ddd836') in 0.035835 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 6.148938 seconds.
+  path: Assets/Sprites/RRH.png
+  artifactKey: Guid(edce5b48f1e5baa429e39662e5f95aca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/RRH.png using Guid(edce5b48f1e5baa429e39662e5f95aca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95605280bcc58181eee8b8fad0661967') in 0.047430 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 1438.871453 seconds.
+  path: Assets/ExternalAssets
+  artifactKey: Guid(641b50ceaa41c0a488a72560954d7d23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/ExternalAssets using Guid(641b50ceaa41c0a488a72560954d7d23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc440f2ce2488b249bf8c2c20cd810b7') in 0.075707 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 8.178422 seconds.
+  path: Assets/ExternalPackages
+  artifactKey: Guid(641b50ceaa41c0a488a72560954d7d23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/ExternalPackages using Guid(641b50ceaa41c0a488a72560954d7d23) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '86b2c6657eeeab6bcc0f2d032a16c60c') in 0.043431 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 3.637099 seconds.
+  path: Assets/ExternalPackages/Tiny RPG Forest
+  artifactKey: Guid(c72c05a43a4f03d4b9eb418af536a57a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/ExternalPackages/Tiny RPG Forest using Guid(c72c05a43a4f03d4b9eb418af536a57a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a0748fbfde067d5007624c37ba6103b4') in 0.037275 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.331169 seconds.
+  path: Assets/ExternalPackages/Tiny RPG Forest/Artwork
+  artifactKey: Guid(2997bd1d056ed4d788a6a187a0745a62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/ExternalPackages/Tiny RPG Forest/Artwork using Guid(2997bd1d056ed4d788a6a187a0745a62) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1bae7c882f89b5f2ddbcbf764c846a77') in 0.032565 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.148609 seconds.
+  path: Assets/ExternalPackages/Tiny RPG Forest/Artwork/Environment
+  artifactKey: Guid(100acaa2162c04f3c80ed7ec436e4f6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/ExternalPackages/Tiny RPG Forest/Artwork/Environment using Guid(100acaa2162c04f3c80ed7ec436e4f6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95fed04f8ac0c79b2d087689624fa1fe') in 0.033421 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.291340 seconds.
+  path: Assets/ExternalPackages/Tiny RPG Forest/Artwork/Environment/tileset-sliced.png
+  artifactKey: Guid(95d22684aba5646d79a26b3287a692b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/ExternalPackages/Tiny RPG Forest/Artwork/Environment/tileset-sliced.png using Guid(95d22684aba5646d79a26b3287a692b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '363d749d5bd57cc7c15968416dc25fce') in 2.926364 seconds 
+Number of asset objects unloaded after import = 402
+========================================================================
+Received Import Request.
+  Time since last request: 4.143303 seconds.
+  path: Assets/ExternalPackages/Tiny RPG Forest/Artwork/Environment/tileset.png
+  artifactKey: Guid(fa9008ba27d044823835d85918621932) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/ExternalPackages/Tiny RPG Forest/Artwork/Environment/tileset.png using Guid(fa9008ba27d044823835d85918621932) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '950c7bd3e185d013edcc34cffcb00c7f') in 0.141585 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 8.489902 seconds.
+  path: Assets/ExternalPackages/Tiny RPG Forest/Artwork/Environment/sliced-objects
+  artifactKey: Guid(6b598df917e2f4bc1ab4004a1d4eed1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/ExternalPackages/Tiny RPG Forest/Artwork/Environment/sliced-objects using Guid(6b598df917e2f4bc1ab4004a1d4eed1b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'eff20c9d8958aece9ef432b24deea5c9') in 0.040005 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 0.971948 seconds.
+  path: Assets/ExternalPackages/Tiny RPG Forest/Artwork/Environment/sliced-objects/bush-tall.png
+  artifactKey: Guid(aa94c6da14ecf4a8690f02549a9ac6a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/ExternalPackages/Tiny RPG Forest/Artwork/Environment/sliced-objects/bush-tall.png using Guid(aa94c6da14ecf4a8690f02549a9ac6a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b355f785ed7adeaf0d4111b878f3a486') in 0.170497 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 1.165846 seconds.
+  path: Assets/ExternalPackages/Tiny RPG Forest/Artwork/Environment/sliced-objects/bush.png
+  artifactKey: Guid(dbc624f7b3a644dcf989e434e63d9a98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/ExternalPackages/Tiny RPG Forest/Artwork/Environment/sliced-objects/bush.png using Guid(dbc624f7b3a644dcf989e434e63d9a98) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '65248687cb0782881109ea9c9007473a') in 0.052200 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 1.338180 seconds.
+  path: Assets/ExternalPackages/Tiny RPG Forest/Artwork/Environment/sliced-objects/rock-monument.png
+  artifactKey: Guid(2eb82ac66de274383af71b2eb2c75da0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/ExternalPackages/Tiny RPG Forest/Artwork/Environment/sliced-objects/rock-monument.png using Guid(2eb82ac66de274383af71b2eb2c75da0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'acd1b1bc17c588e0a3d1631b1e8f792a') in 0.071351 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 3.919550 seconds.
+  path: Assets/ExternalPackages/Tiny RPG Forest/Artwork/Environment/sliced-objects/rock.png
+  artifactKey: Guid(37eaf6e537ca749adaaea0a3e900d411) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/ExternalPackages/Tiny RPG Forest/Artwork/Environment/sliced-objects/rock.png using Guid(37eaf6e537ca749adaaea0a3e900d411) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e37afa3027bb8a4577b73cdd7534bd6') in 0.054363 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.536241 seconds.
+  path: Assets/ExternalPackages/Tiny RPG Forest/Artwork/Environment/sliced-objects/sign.png
+  artifactKey: Guid(b52a57bea9b6a47e096e15fd1bbe2fb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/ExternalPackages/Tiny RPG Forest/Artwork/Environment/sliced-objects/sign.png using Guid(b52a57bea9b6a47e096e15fd1bbe2fb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c75c2a8ddbf9d73babc03c539bb2d52b') in 0.055402 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.726151 seconds.
+  path: Assets/ExternalPackages/Tiny RPG Forest/Artwork/Environment/sliced-objects/tree-dried.png
+  artifactKey: Guid(db07cc93e21f1457d9a1364618027fbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/ExternalPackages/Tiny RPG Forest/Artwork/Environment/sliced-objects/tree-dried.png using Guid(db07cc93e21f1457d9a1364618027fbb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '884726a3f7ca05162d68b36d0fed65f2') in 0.139627 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 1.373749 seconds.
+  path: Assets/ExternalPackages/Tiny RPG Forest/Artwork/Environment/sliced-objects/tree-orange.png
+  artifactKey: Guid(8c69f3cd16f534bec8236a6484f500d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/ExternalPackages/Tiny RPG Forest/Artwork/Environment/sliced-objects/tree-orange.png using Guid(8c69f3cd16f534bec8236a6484f500d4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3b71035d00da759cad21374e5dcd3be6') in 0.066266 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 2.266482 seconds.
+  path: Assets/ExternalPackages/Tiny RPG Forest/Artwork/Environment/sliced-objects/tree-pink.png
+  artifactKey: Guid(c008626f5108946299e1a584ba85fa5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/ExternalPackages/Tiny RPG Forest/Artwork/Environment/sliced-objects/tree-pink.png using Guid(c008626f5108946299e1a584ba85fa5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1c21ee3ba06ecb5165377e8c82b78024') in 0.052517 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.808307 seconds.
+  path: Assets/ExternalPackages/Tiny RPG Forest/Artwork/Environment/sliced-objects/trunk.png
+  artifactKey: Guid(606bc7833699b46bfb26e8141d2a64a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/ExternalPackages/Tiny RPG Forest/Artwork/Environment/sliced-objects/trunk.png using Guid(606bc7833699b46bfb26e8141d2a64a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2eed478c985e9cfa7adb9eaf60bf5feb') in 0.054423 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 73.482776 seconds.
+  path: Assets/Settings
+  artifactKey: Guid(0220aab0833d04faeb927d84ca6cc40c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Settings using Guid(0220aab0833d04faeb927d84ca6cc40c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '883c6bc56722fe6593f894f6e6030305') in 0.053766 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 8.322198 seconds.
+  path: Assets/Settings/Input
+  artifactKey: Guid(2a3d9678f06fac341b335e3cc9be5baa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Settings/Input using Guid(2a3d9678f06fac341b335e3cc9be5baa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0cd331ff320c5cce6dafd52e9481ba20') in 0.040191 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 20.736899 seconds.
+  path: Assets/Settings/Input/Default Controls.inputactions
+  artifactKey: Guid(f2540148187b92945928b560f06a39c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Settings/Input/Default Controls.inputactions using Guid(f2540148187b92945928b560f06a39c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e75d2793446ad628c6e6eb9a91c31492') in 0.114508 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 60.945323 seconds.
+  path: Assets/Settings/Input/Default Controls.inputactions
+  artifactKey: Guid(f2540148187b92945928b560f06a39c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Settings/Input/Default Controls.inputactions using Guid(f2540148187b92945928b560f06a39c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08ebab2328fb009837fcff2cb995b6a8') in 0.068832 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 1.454509 seconds.
+  path: Assets/Settings/Input/Default Controls.inputactions
+  artifactKey: Guid(f2540148187b92945928b560f06a39c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Settings/Input/Default Controls.inputactions using Guid(f2540148187b92945928b560f06a39c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18447ebeddd7b3ad3cf92cb109a84b99') in 0.012264 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 13.465667 seconds.
+  path: Assets/Settings/Input/Default Controls.inputactions
+  artifactKey: Guid(f2540148187b92945928b560f06a39c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Settings/Input/Default Controls.inputactions using Guid(f2540148187b92945928b560f06a39c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '757ab4057f17af9cd7e49c04e3b3be2b') in 0.013889 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 13.292999 seconds.
+  path: Assets/Settings/Input/Default Controls.inputactions
+  artifactKey: Guid(f2540148187b92945928b560f06a39c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Settings/Input/Default Controls.inputactions using Guid(f2540148187b92945928b560f06a39c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '340305cf3d299f1e6052520bb07fa554') in 0.013766 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 10.580366 seconds.
+  path: Assets/Settings/Input/Default Controls.inputactions
+  artifactKey: Guid(f2540148187b92945928b560f06a39c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Settings/Input/Default Controls.inputactions using Guid(f2540148187b92945928b560f06a39c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef50874d09b0ea5f8fb200e351d0a7de') in 0.013944 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 11.697731 seconds.
+  path: Assets/Settings/Input/Default Controls.inputactions
+  artifactKey: Guid(f2540148187b92945928b560f06a39c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Settings/Input/Default Controls.inputactions using Guid(f2540148187b92945928b560f06a39c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0850c8f192c61403c41132425971e20') in 0.020628 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 5.625034 seconds.
+  path: Assets/Settings/Input/Default Controls.inputactions
+  artifactKey: Guid(f2540148187b92945928b560f06a39c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Settings/Input/Default Controls.inputactions using Guid(f2540148187b92945928b560f06a39c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8ab308c228593d2d7a9ecceb1ad1ecc6') in 0.018905 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 19.440468 seconds.
+  path: Assets/Settings/Input/Default Controls.inputactions
+  artifactKey: Guid(f2540148187b92945928b560f06a39c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Settings/Input/Default Controls.inputactions using Guid(f2540148187b92945928b560f06a39c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fa99e79936a081ab954bb53eb4691d7f') in 0.031057 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 43.524102 seconds.
+  path: Assets/Settings/Input/InputSystem.inputsettings.asset
+  artifactKey: Guid(143b4c0bb3f65c048a69cf5d39c48f57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Settings/Input/InputSystem.inputsettings.asset using Guid(143b4c0bb3f65c048a69cf5d39c48f57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e21e4b16d192e6d380174cf7b1cbf536') in 0.048358 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 18.759438 seconds.
+  path: Assets/Scripts/Player/PlayerFacade.cs
+  artifactKey: Guid(c0129339751f39e4ebf088902525cc82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Scripts/Player/PlayerFacade.cs using Guid(c0129339751f39e4ebf088902525cc82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '24338c857659d2637caf040809d884d3') in 0.116188 seconds 
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 7.492881 seconds.
+  path: Assets/Scripts/Misc
+  artifactKey: Guid(77cff10bb4eb9b648a9d96312796ba38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Scripts/Misc using Guid(77cff10bb4eb9b648a9d96312796ba38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '655444b7a60dc9d5ee466362e3dafffb') in 0.033888 seconds 
+Number of asset objects unloaded after import = 0
