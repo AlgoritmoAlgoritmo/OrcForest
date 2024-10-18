@@ -39,6 +39,10 @@ namespace OrcForest.Enemies {
         public bool ReceiveDamage( int _damage ) {
             return hpController.DealDamage( _damage );
         }
+
+        public void Destroy() {
+            Destroy(gameObject);
+        }
         #endregion
 
 
