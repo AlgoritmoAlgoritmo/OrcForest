@@ -18,13 +18,6 @@ namespace OrcForest.GameLoop {
 		#endregion
 
 
-		#region MonoBehaviour methods
-		private void Awake() {
-			ResumeGame();
-		}
-		#endregion
-
-
 		#region Public methods
 		public void EnemyDamaged( GameObject _enemyObject, int _damageAmount ) {
 			Debug.Log("Enemy damaged");
@@ -40,6 +33,10 @@ namespace OrcForest.GameLoop {
 				Debug.Log( "Player killed" );
 				GameOver();
 			}
+		}
+
+		public void InstantiateGameObject( GameObject _gameObject ) {
+			Instantiate(_gameObject);
 		}
 		#endregion
 
