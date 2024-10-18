@@ -13,9 +13,9 @@ namespace OrcForest.Misc {
 	public class HPController {
 		#region Variables
 		[SerializeField]
-		private int maxHP;
+		protected int maxHP;
 
-		private int currentHP = 0;
+		protected int currentHP = 0;
 		#endregion
 
 		#region Public methods
@@ -23,7 +23,7 @@ namespace OrcForest.Misc {
 			currentHP = maxHP;
 		}
 
-		public bool DealDamage( int _damageAmount ) {
+		public virtual bool DealDamage( int _damageAmount ) {
 			currentHP -= _damageAmount;
 
 			return currentHP > 0;

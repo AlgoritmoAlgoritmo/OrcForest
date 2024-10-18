@@ -28,8 +28,10 @@ namespace OrcForest.Player {
 
         public Weapons.DamageDealtEvent OnDamageDealt;
 
-        [Header("Misc Variables")]
-		[SerializeField]
+        [Header( "Misc Variables" )]
+        [SerializeField]
+        private MVCHPController hpController;
+        [SerializeField]
 		private PlayerInput playerInput;
         #endregion
 
@@ -39,10 +41,19 @@ namespace OrcForest.Player {
                 playerInput = FindObjectOfType<PlayerInput>();
 
             weapon.OnDamageDealt.AddListener( DealtDamageToEnemy );
+
+            hpController.Initialize();
         }
 
         private void FixedUpdate() {
             ReadPlayerInput();
+        }
+        #endregion
+
+
+        #region Public methods
+        public bool ReceiveDamage( int _damage ) {
+            return hpController.DealDamage( _damage );
         }
         #endregion
 

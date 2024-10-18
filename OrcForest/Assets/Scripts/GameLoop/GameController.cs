@@ -5,10 +5,9 @@
 */
 
 
-using OrcForest.Enemies;
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
+using OrcForest.Enemies;
+using OrcForest.Player;
 
 
 namespace OrcForest.GameLoop {
@@ -25,7 +24,10 @@ namespace OrcForest.GameLoop {
 		}
 
 		public void PlayerDamaged( GameObject _playerObject, int _damageAmount ) {
-			Debug.Log( "Player damaged" );
+			Debug.Log( "Player damaged: " + _damageAmount );
+			if( !_playerObject.GetComponent<PlayerFacade>().ReceiveDamage( _damageAmount ) ) {
+				Debug.Log( "Player killed" );
+			}
 		}
 		#endregion
 	}
