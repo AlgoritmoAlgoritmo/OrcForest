@@ -14,8 +14,11 @@ namespace OrcForest.Enemies {
         #region Variables
         [Header( "Weapon variables" )]
         public Weapons.DamageDealtEvent OnPlayerDamaged;
-
 		private AbstractWeapon[] weaponsArray;
+
+        [Header( "Misc variables" )]
+        [SerializeField]
+        private Misc.HPController hpController;
         #endregion
 
 
@@ -26,11 +29,16 @@ namespace OrcForest.Enemies {
             foreach( var auxWeapon in weaponsArray ) {
                 auxWeapon.OnDamageDealt.AddListener( DamagePlayer );
             }
+
+            hpController.Initialize();
         }
         #endregion
 
 
         #region Public methods
+        public bool ReceiveDamage( int _damage ) {
+            return hpController.DealDamage( _damage );
+        }
         #endregion
 
 
