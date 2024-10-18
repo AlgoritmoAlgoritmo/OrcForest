@@ -17,6 +17,14 @@ namespace OrcForest.GameLoop {
 		public UnityEvent OnGameOver;
 		#endregion
 
+
+		#region MonoBehaviour methods
+		private void Awake() {
+			ResumeGame();
+		}
+		#endregion
+
+
 		#region Public methods
 		public void EnemyDamaged( GameObject _enemyObject, int _damageAmount ) {
 			Debug.Log("Enemy damaged");
