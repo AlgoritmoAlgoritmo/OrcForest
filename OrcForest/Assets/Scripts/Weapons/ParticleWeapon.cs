@@ -16,8 +16,6 @@ namespace OrcForest.Weapons {
 
         [SerializeField]
         private ParticleSystem weaponParticleSystem;
-
-        public DamageDealtEvent OnDamageDealt;
         #endregion
 
 

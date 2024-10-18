@@ -4,6 +4,7 @@
 * Date: 17/10/2024 (DD/MM/YYYY)
 */
 
+
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
@@ -15,6 +16,13 @@ namespace OrcForest.GameLoop {
 		#endregion
 
 		#region Public methods
-		#endregion    
+		public void EnemyDamaged( GameObject _enemyObject, int _damageAmount ) {
+			Debug.Log("Enemy damaged");
+		}
+
+		public void PlayerDamaged( GameObject _playerObject, int _damageAmount ) {
+			Debug.Log( "Player damaged" );
+		}
+		#endregion
 	}
 }

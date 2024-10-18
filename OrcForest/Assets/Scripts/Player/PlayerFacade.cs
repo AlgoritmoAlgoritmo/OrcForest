@@ -26,6 +26,8 @@ namespace OrcForest.Player {
         [SerializeField]
         private AbstractWeapon weapon;
 
+        public Weapons.DamageDealtEvent OnDamageDealt;
+
         [Header("Misc Variables")]
 		[SerializeField]
 		private PlayerInput playerInput;
@@ -35,16 +37,15 @@ namespace OrcForest.Player {
         private void Awake() {
             if( !playerInput )
                 playerInput = FindObjectOfType<PlayerInput>();
-        }
 
+            weapon.OnDamageDealt.AddListener( DealtDamageToEnemy );
+        }
 
         private void FixedUpdate() {
             ReadPlayerInput();
         }
         #endregion
 
-        #region Public methods
-        #endregion
 
         #region Private methods
         private void ReadPlayerInput() {
@@ -56,6 +57,10 @@ namespace OrcForest.Player {
             } else {
                 weapon.StopShooting();
             }
+        }
+
+        private void DealtDamageToEnemy( GameObject _enemyObject, int _damage ) {
+            OnDamageDealt.Invoke( _enemyObject, _damage );
         }
         #endregion
     }
