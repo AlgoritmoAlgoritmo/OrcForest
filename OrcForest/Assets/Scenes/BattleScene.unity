@@ -321,7 +321,7 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   hpController:
-    maxHP: 500
+    maxHP: 1000
 --- !u!1 &142997671
 GameObject:
   m_ObjectHideFlags: 0
@@ -7157,7 +7157,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 652641477541316435, guid: a370412c55d4f314284b30b504f15b96, type: 3}
       propertyPath: InitialModule.startSpeed.scalar
-      value: 1.5
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 652641477541316435, guid: a370412c55d4f314284b30b504f15b96, type: 3}
       propertyPath: EmissionModule.rateOverTime.scalar
@@ -18594,7 +18594,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 652641477541316435, guid: a370412c55d4f314284b30b504f15b96, type: 3}
       propertyPath: InitialModule.startSpeed.scalar
-      value: 1.5
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 652641477541316435, guid: a370412c55d4f314284b30b504f15b96, type: 3}
       propertyPath: EmissionModule.rateOverTime.scalar
@@ -18692,7 +18692,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 652641477541316435, guid: a370412c55d4f314284b30b504f15b96, type: 3}
       propertyPath: InitialModule.startSpeed.scalar
-      value: 1.5
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 652641477541316435, guid: a370412c55d4f314284b30b504f15b96, type: 3}
       propertyPath: EmissionModule.rateOverTime.scalar
@@ -19414,7 +19414,7 @@ MonoBehaviour:
           m_BoolArgument: 0
         m_CallState: 2
   hpController:
-    maxHP: 100
+    maxHP: 10
     hpBarImage: {fileID: 2115194283}
   playerInput: {fileID: 0}
 --- !u!1001 &1813992842
@@ -19494,7 +19494,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 652641477541316435, guid: a370412c55d4f314284b30b504f15b96, type: 3}
       propertyPath: InitialModule.startSpeed.scalar
-      value: 1.5
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 652641477541316435, guid: a370412c55d4f314284b30b504f15b96, type: 3}
       propertyPath: EmissionModule.rateOverTime.scalar
@@ -19739,7 +19739,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 652641477541316435, guid: a370412c55d4f314284b30b504f15b96, type: 3}
       propertyPath: InitialModule.startSpeed.scalar
-      value: 1.5
+      value: 2
       objectReference: {fileID: 0}
     - target: {fileID: 652641477541316435, guid: a370412c55d4f314284b30b504f15b96, type: 3}
       propertyPath: EmissionModule.rateOverTime.scalar
