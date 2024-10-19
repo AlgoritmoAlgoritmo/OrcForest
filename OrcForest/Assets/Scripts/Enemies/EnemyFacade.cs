@@ -43,6 +43,18 @@ namespace OrcForest.Enemies {
         public void Destroy() {
             Destroy(gameObject);
         }
+
+        public void Shoot() {
+            foreach( var auxWeapon in weaponsArray ) {
+                auxWeapon.Shoot();
+            }
+        }
+
+        public void StopShooting() {
+            foreach( var auxWeapon in weaponsArray ) {
+                auxWeapon.StopShooting();
+            }
+        }
         #endregion
 
 
