@@ -24,7 +24,7 @@ namespace OrcForest.Enemies {
 
         #region MonoBehaviour methods
         private void Awake() {
-            weaponsArray = GetComponentsInChildren<AbstractWeapon>();
+            weaponsArray = GetComponentsInChildren<AbstractWeapon>(true);
 
             foreach( var auxWeapon in weaponsArray ) {
                 auxWeapon.OnDamageDealt.AddListener( DamagePlayer );

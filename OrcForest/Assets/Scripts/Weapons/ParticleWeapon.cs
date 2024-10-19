@@ -23,8 +23,9 @@ namespace OrcForest.Weapons {
 
         #region MonoBehaviour methods
         private void OnParticleCollision( GameObject _detectedObject ) {
-            if( _detectedObject.layer != LayerMask.NameToLayer( bulletBoundLayer ) )
-            OnDamageDealt.Invoke( _detectedObject, damage );
+            if( _detectedObject.layer != LayerMask.NameToLayer( bulletBoundLayer ) ) {
+				OnDamageDealt.Invoke( _detectedObject, damage );
+			}
         }
         #endregion
 
