@@ -16,11 +16,14 @@ namespace OrcForest.Weapons {
 
         [SerializeField]
         private ParticleSystem weaponParticleSystem;
+        [SerializeField]
+        private string bulletBoundLayer = "BulletBound";
         #endregion
 
 
         #region MonoBehaviour methods
         private void OnParticleCollision( GameObject _detectedObject ) {
+            if( _detectedObject.layer != LayerMask.NameToLayer( bulletBoundLayer ) )
             OnDamageDealt.Invoke( _detectedObject, damage );
         }
         #endregion

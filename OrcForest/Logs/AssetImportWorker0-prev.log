@@ -15,7 +15,7 @@ C:/Users/Usuario/Documents/GitHub/OrcForest/OrcForest
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-50446
+55893
 Successfully changed project path to: C:/Users/Usuario/Documents/GitHub/OrcForest/OrcForest
 C:/Users/Usuario/Documents/GitHub/OrcForest/OrcForest
 [UnityMemory] Configuration Parameters - Can be set up in boot.config
@@ -47,12 +47,12 @@ C:/Users/Usuario/Documents/GitHub/OrcForest/OrcForest
     "memorysetup-temp-allocator-size-cloud-worker=32768"
     "memorysetup-temp-allocator-size-gi-baking-worker=262144"
     "memorysetup-temp-allocator-size-gfx=262144"
-Player connection [35928] Host "[IP] 192.168.1.4 [Port] 0 [Flags] 2 [Guid] 419118561 [EditorId] 419118561 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-7NK7EKN0) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+Player connection [15528] Host "[IP] 192.168.1.4 [Port] 0 [Flags] 2 [Guid] 694450826 [EditorId] 694450826 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-7NK7EKN0) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
 
-Player connection [35928] Host "[IP] 192.168.1.4 [Port] 0 [Flags] 2 [Guid] 419118561 [EditorId] 419118561 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-7NK7EKN0) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+Player connection [15528] Host "[IP] 192.168.1.4 [Port] 0 [Flags] 2 [Guid] 694450826 [EditorId] 694450826 [Version] 1048832 [Id] WindowsEditor(7,LAPTOP-7NK7EKN0) [Debug] 1 [PackageName] WindowsEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
 
 [Physics::Module] Initialized MultithreadedJobDispatcher with {0} workers.
-Refreshing native plugins compatible for Editor in 2182.10 ms, found 4 plugins.
+Refreshing native plugins compatible for Editor in 1075.20 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2021.3.42f1 (f1197811e8ce)
 [Subsystems] Discovering subsystems at path C:/Program Files/Unity/Hub/Editor/2021.3.42f1/Editor/Data/Resources/UnitySubsystems
@@ -68,42 +68,403 @@ Initialize mono
 Mono path[0] = 'C:/Program Files/Unity/Hub/Editor/2021.3.42f1/Editor/Data/Managed'
 Mono path[1] = 'C:/Program Files/Unity/Hub/Editor/2021.3.42f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
 Mono config path = 'C:/Program Files/Unity/Hub/Editor/2021.3.42f1/Editor/Data/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56796
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56440
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
+Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.42f1/Editor/Data/PlaybackEngines/WebGLSupport/UnityEditor.WebGL.Extensions.dll
 Register platform support module: C:/Program Files/Unity/Hub/Editor/2021.3.42f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.036312 seconds.
+Registered in 0.030031 seconds.
 Native extension for WindowsStandalone target not found
-Refreshing native plugins compatible for Editor in 916.50 ms, found 4 plugins.
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 372.14 ms, found 4 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  7.680 seconds
+- Completed reload, in  3.210 seconds
 Domain Reload Profiling:
-	ReloadAssembly (7682ms)
-		BeginReloadAssembly (884ms)
+	ReloadAssembly (3212ms)
+		BeginReloadAssembly (704ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (8ms)
-		EndReloadAssembly (5892ms)
-			LoadAssemblies (868ms)
-			RebuildTransferFunctionScriptingTraits (1ms)
-			SetupTypeCache (1767ms)
+			CreateAndSetChildDomain (3ms)
+		EndReloadAssembly (2061ms)
+			LoadAssemblies (697ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (450ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (250ms)
-			SetupLoadedEditorAssemblies (2991ms)
+			RebuildScriptCaches (178ms)
+			SetupLoadedEditorAssemblies (1261ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (38ms)
+				InitializePlatformSupportModulesInManaged (49ms)
 				SetLoadedEditorAssemblies (1ms)
-				RefreshPlugins (917ms)
-				BeforeProcessingInitializeOnLoad (9ms)
-				ProcessInitializeOnLoadAttributes (1512ms)
-				ProcessInitializeOnLoadMethodAttributes (513ms)
+				RefreshPlugins (372ms)
+				BeforeProcessingInitializeOnLoad (11ms)
+				ProcessInitializeOnLoadAttributes (620ms)
+				ProcessInitializeOnLoadMethodAttributes (208ms)
 				AfterProcessingInitializeOnLoad (0ms)
-				EditorAssembliesLoaded (1ms)
+				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.043073 seconds.
+Registered in 0.040721 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for WebGL target not found
+Refreshing native plugins compatible for Editor in 413.26 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Completed reload, in  9.858 seconds
+Domain Reload Profiling:
+	ReloadAssembly (9861ms)
+		BeginReloadAssembly (515ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (24ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (1ms)
+			CreateAndSetChildDomain (64ms)
+		EndReloadAssembly (8612ms)
+			LoadAssemblies (3164ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (1309ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (342ms)
+			SetupLoadedEditorAssemblies (3694ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (26ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (414ms)
+				BeforeProcessingInitializeOnLoad (470ms)
+				ProcessInitializeOnLoadAttributes (2393ms)
+				ProcessInitializeOnLoadMethodAttributes (361ms)
+				AfterProcessingInitializeOnLoad (30ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (24ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 1.19 seconds
+Refreshing native plugins compatible for Editor in 3.31 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5722 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 45 unused Assets / (452.4 KB). Loaded Objects now: 6174.
+Memory consumption went from 226.2 MB to 225.7 MB.
+Total: 14.905400 ms (FindLiveObjects: 1.836900 ms CreateObjectMapping: 1.160000 ms MarkObjects: 10.995100 ms  DeleteObjects: 0.909800 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:CustomObjectIndexerAttribute: 6b0e35c9178b02a6363f3721b7b8e397 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 520546.162504 seconds.
+  path: Assets/Sprites/Characters/WillOSkull.png
+  artifactKey: Guid(22fa4ed55641afd4d859efaee6dbf2eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/Characters/WillOSkull.png using Guid(22fa4ed55641afd4d859efaee6dbf2eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '777dc2f9cd436ae5224eed4d3e6b782a') in 1.085368 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 16.274302 seconds.
+  path: Assets/Sprites/Characters/FutaOrc.png
+  artifactKey: Guid(1a592dbd45ab85947a20fe879263b389) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/Characters/FutaOrc.png using Guid(1a592dbd45ab85947a20fe879263b389) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de2a4de5aaf25289e100821efcafc03b') in 0.131027 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 14.001971 seconds.
+  path: Assets/Sprites/Characters/WillOSkull.png
+  artifactKey: Guid(22fa4ed55641afd4d859efaee6dbf2eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/Characters/WillOSkull.png using Guid(22fa4ed55641afd4d859efaee6dbf2eb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e710735d15d2d52fbf63a50b6a5955b0') in 0.047782 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 10.640662 seconds.
+  path: Assets/Sprites/Characters/FutaOrc_Boss.png
+  artifactKey: Guid(489bc59c4f52cce44b8bbaf5f86e33fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/Characters/FutaOrc_Boss.png using Guid(489bc59c4f52cce44b8bbaf5f86e33fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b008e999aac34e934f6e76893ad987fa') in 0.113757 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 2.182136 seconds.
+  path: Assets/Sprites/Characters/FutaOrc_V2.png
+  artifactKey: Guid(00482f7266058454db6bd154db78363d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/Characters/FutaOrc_V2.png using Guid(00482f7266058454db6bd154db78363d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b34b119a51ee6e91417a6138e56ffe94') in 0.088481 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 92.645790 seconds.
+  path: Assets/Sprites/Characters/RRH.png
+  artifactKey: Guid(edce5b48f1e5baa429e39662e5f95aca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/Characters/RRH.png using Guid(edce5b48f1e5baa429e39662e5f95aca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '11534b7884d8b318bdc230612604ae0a') in 0.093175 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 26.52 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 30 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 30 unused Assets / (419.2 KB). Loaded Objects now: 6187.
+Memory consumption went from 108.2 MB to 107.8 MB.
+Total: 18.514300 ms (FindLiveObjects: 1.914500 ms CreateObjectMapping: 1.413200 ms MarkObjects: 14.260700 ms  DeleteObjects: 0.921900 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:CustomObjectIndexerAttribute: 6b0e35c9178b02a6363f3721b7b8e397 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1198.403720 seconds.
+  path: Assets/Settings/Renderer2D.asset
+  artifactKey: Guid(424799608f7334c24bf367e4bbfa7f9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Settings/Renderer2D.asset using Guid(424799608f7334c24bf367e4bbfa7f9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6e32636c32d0a169c03a8bc55e48f16') in 0.120244 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 21.427628 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Runtime/Data/PostProcessData.asset
+  artifactKey: Guid(41439944d30ece34e96484bdb6645b55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Packages/com.unity.render-pipelines.universal/Runtime/Data/PostProcessData.asset using Guid(41439944d30ece34e96484bdb6645b55) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'edf94090db237b16078d72493c447469') in 0.119521 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 7.313205 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Runtime/Data/UniversalRendererData.asset
+  artifactKey: Guid(ba6e69114eba6af4585b7b850051b2d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Packages/com.unity.render-pipelines.universal/Runtime/Data/UniversalRendererData.asset using Guid(ba6e69114eba6af4585b7b850051b2d9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d0138f6db5aeac6e9673facd9d20018') in 0.109470 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 13.990987 seconds.
+  path: Assets/Settings/Lit2DSceneTemplate.scenetemplate
+  artifactKey: Guid(d03ed43fc9d8a4f2e9fa70c1c7916eb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Settings/Lit2DSceneTemplate.scenetemplate using Guid(d03ed43fc9d8a4f2e9fa70c1c7916eb9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d370bd4abbdd02274aae331b4d29b3c') in 0.436994 seconds 
+Number of asset objects unloaded after import = 5
+========================================================================
+Received Import Request.
+  Time since last request: 35.263171 seconds.
+  path: Assets/Settings/Renderer2D.asset
+  artifactKey: Guid(424799608f7334c24bf367e4bbfa7f9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 1
+Start importing Assets/Settings/Renderer2D.asset using Guid(424799608f7334c24bf367e4bbfa7f9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85382767c2c14e140be7c39d399672e4') in 0.014605 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Prepare
+Default Renderer is missing, make sure there is a Renderer assigned as the default on the current Universal RP asset:UniversalRP
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object)
+UnityEngine.Debug:LogError (object,UnityEngine.Object)
+UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset:CreatePipeline () (at Library/PackageCache/com.unity.render-pipelines.universal@12.1.15/Runtime/Data/UniversalRenderPipelineAsset.cs:468)
+UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset:get_scriptableRendererData () (at Library/PackageCache/com.unity.render-pipelines.universal@12.1.15/Runtime/Data/UniversalRenderPipelineAsset.cs:622)
+UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset:get_defaultShader () (at Library/PackageCache/com.unity.render-pipelines.universal@12.1.15/Runtime/Data/UniversalRenderPipelineAsset.cs:1143)
+
+(Filename: Library/PackageCache/com.unity.render-pipelines.universal@12.1.15/Runtime/Data/UniversalRenderPipelineAsset.cs Line: 468)
+
+Refreshing native plugins compatible for Editor in 408.05 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 30 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 30 unused Assets / (419.0 KB). Loaded Objects now: 6188.
+Memory consumption went from 108.4 MB to 108.0 MB.
+Total: 21.744200 ms (FindLiveObjects: 3.110300 ms CreateObjectMapping: 1.725600 ms MarkObjects: 15.992500 ms  DeleteObjects: 0.911700 ms)
+
+Default Renderer is missing, make sure there is a Renderer assigned as the default on the current Universal RP asset:UniversalRP
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object)
+UnityEngine.Debug:LogError (object,UnityEngine.Object)
+UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset:CreatePipeline () (at Library/PackageCache/com.unity.render-pipelines.universal@12.1.15/Runtime/Data/UniversalRenderPipelineAsset.cs:468)
+UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset:get_scriptableRendererData () (at Library/PackageCache/com.unity.render-pipelines.universal@12.1.15/Runtime/Data/UniversalRenderPipelineAsset.cs:622)
+UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset:get_defaultShader () (at Library/PackageCache/com.unity.render-pipelines.universal@12.1.15/Runtime/Data/UniversalRenderPipelineAsset.cs:1143)
+
+(Filename: Library/PackageCache/com.unity.render-pipelines.universal@12.1.15/Runtime/Data/UniversalRenderPipelineAsset.cs Line: 468)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:srp/default-shader: 0000e00a000e0de00000e000e02d0000 -> 0000e00a000e0de00000e000e0000000
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:CustomObjectIndexerAttribute: 6b0e35c9178b02a6363f3721b7b8e397 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1418.025243 seconds.
+  path: Assets/Sprites/Materials/MainCharProjectile.mat
+  artifactKey: Guid(edcb0440064453f49a2470adc96b070e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/Materials/MainCharProjectile.mat using Guid(edcb0440064453f49a2470adc96b070e) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Default Renderer is missing, make sure there is a Renderer assigned as the default on the current Universal RP asset:UniversalRP
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object)
+UnityEngine.Debug:LogError (object,UnityEngine.Object)
+UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset:CreatePipeline () (at Library/PackageCache/com.unity.render-pipelines.universal@12.1.15/Runtime/Data/UniversalRenderPipelineAsset.cs:468)
+UnityEngine.Rendering.RenderPipelineAsset:InternalCreatePipeline ()
+UnityEngine.Rendering.RenderPipelineManager:PrepareRenderPipeline (UnityEngine.Rendering.RenderPipelineAsset)
+UnityEngine.Rendering.RenderPipelineManager:DoRenderLoop_Internal (UnityEngine.Rendering.RenderPipelineAsset,intptr,System.Collections.Generic.List`1<UnityEngine.Camera/RenderRequest>,Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle)
+UnityEditor.PreviewRenderUtility:Render (bool,bool)
+UnityEditor.MaterialEditor:DoRenderPreview (UnityEditor.PreviewRenderUtility,bool)
+UnityEditor.MaterialEditor:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+(Filename: Library/PackageCache/com.unity.render-pipelines.universal@12.1.15/Runtime/Data/UniversalRenderPipelineAsset.cs Line: 468)
+
+ -> (artifact id: 'cc53b405371429dc86a88d6787b22125') in 1.829789 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 197.989574 seconds.
+  path: Assets/Sprites/Projectile_Red.png
+  artifactKey: Guid(850eeba471bb53744b6556afff0dfb52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/Projectile_Red.png using Guid(850eeba471bb53744b6556afff0dfb52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c317a6831fcb27612c5d84fc72434b6e') in 0.181924 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 1574.021391 seconds.
+  path: Assets/Sprites/Projectile_Blue.png
+  artifactKey: Guid(823e06c4c83c4574f8b08b0fe9f1b076) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/Projectile_Blue.png using Guid(823e06c4c83c4574f8b08b0fe9f1b076) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd40ccf9c7b2812aade8aff0ca288f8be') in 0.107596 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 1.338809 seconds.
+  path: Assets/Sprites/Projectile_Green.png
+  artifactKey: Guid(e40c672e567070f4fbf40ce01ac2166c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/Projectile_Green.png using Guid(e40c672e567070f4fbf40ce01ac2166c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ce1e037ef5a5d8597355e7cd9982284') in 0.135765 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 22.525720 seconds.
+  path: Assets/Sprites/Projectile_Green.png
+  artifactKey: Guid(e40c672e567070f4fbf40ce01ac2166c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/Projectile_Green.png using Guid(e40c672e567070f4fbf40ce01ac2166c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9105e9f71d9ec9f920cd99031ea0f94') in 0.117645 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 5.760280 seconds.
+  path: Assets/Sprites/MainCharProjectile.png
+  artifactKey: Guid(1ab38795e5be3c043ad22316810d7b83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/MainCharProjectile.png using Guid(1ab38795e5be3c043ad22316810d7b83) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49e6a29087336808b3888a702211e028') in 0.141037 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 19.506226 seconds.
+  path: Assets/Sprites/Projectile_Red.png
+  artifactKey: Guid(850eeba471bb53744b6556afff0dfb52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/Projectile_Red.png using Guid(850eeba471bb53744b6556afff0dfb52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7175eed3ca3a6cbda0abfd1e1cd468bf') in 0.055678 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 4.263229 seconds.
+  path: Assets/Sprites/Projectile_Red.png
+  artifactKey: Guid(850eeba471bb53744b6556afff0dfb52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/Projectile_Red.png using Guid(850eeba471bb53744b6556afff0dfb52) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ce2900a5d89ee00ddd78f0ab6840ac54') in 0.082416 seconds 
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 19.804115 seconds.
+  path: Assets/Sprites/Materials/Projectile_Green.mat
+  artifactKey: Guid(0a2c96f712d76b84c8cf99d6abeb73e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Sprites/Materials/Projectile_Green.mat using Guid(0a2c96f712d76b84c8cf99d6abeb73e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Default Renderer is missing, make sure there is a Renderer assigned as the default on the current Universal RP asset:UniversalRP
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object)
+UnityEngine.Debug:LogError (object,UnityEngine.Object)
+UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset:CreatePipeline () (at Library/PackageCache/com.unity.render-pipelines.universal@12.1.15/Runtime/Data/UniversalRenderPipelineAsset.cs:468)
+UnityEngine.Rendering.RenderPipelineAsset:InternalCreatePipeline ()
+UnityEngine.Rendering.RenderPipelineManager:PrepareRenderPipeline (UnityEngine.Rendering.RenderPipelineAsset)
+UnityEngine.Rendering.RenderPipelineManager:DoRenderLoop_Internal (UnityEngine.Rendering.RenderPipelineAsset,intptr,System.Collections.Generic.List`1<UnityEngine.Camera/RenderRequest>,Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle)
+UnityEditor.PreviewRenderUtility:Render (bool,bool)
+UnityEditor.MaterialEditor:DoRenderPreview (UnityEditor.PreviewRenderUtility,bool)
+UnityEditor.MaterialEditor:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+(Filename: Library/PackageCache/com.unity.render-pipelines.universal@12.1.15/Runtime/Data/UniversalRenderPipelineAsset.cs Line: 468)
+
+ -> (artifact id: '21ba5ce0a24725b13fad40a2a895cf07') in 0.054576 seconds 
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 1393.699452 seconds.
+  path: Packages/com.unity.render-pipelines.universal/Runtime/Materials/Sprite-Lit-Default.mat
+  artifactKey: Guid(a97c105638bdf8b4a8650670310a4cd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Packages/com.unity.render-pipelines.universal/Runtime/Materials/Sprite-Lit-Default.mat using Guid(a97c105638bdf8b4a8650670310a4cd3) Importer(815301076,1909f56bfc062723c751e8b465ee728b) Default Renderer is missing, make sure there is a Renderer assigned as the default on the current Universal RP asset:UniversalRP
+UnityEngine.StackTraceUtility:ExtractStackTrace ()
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object)
+UnityEngine.Debug:LogError (object,UnityEngine.Object)
+UnityEngine.Rendering.Universal.UniversalRenderPipelineAsset:CreatePipeline () (at Library/PackageCache/com.unity.render-pipelines.universal@12.1.15/Runtime/Data/UniversalRenderPipelineAsset.cs:468)
+UnityEngine.Rendering.RenderPipelineAsset:InternalCreatePipeline ()
+UnityEngine.Rendering.RenderPipelineManager:PrepareRenderPipeline (UnityEngine.Rendering.RenderPipelineAsset)
+UnityEngine.Rendering.RenderPipelineManager:DoRenderLoop_Internal (UnityEngine.Rendering.RenderPipelineAsset,intptr,System.Collections.Generic.List`1<UnityEngine.Camera/RenderRequest>,Unity.Collections.LowLevel.Unsafe.AtomicSafetyHandle)
+UnityEditor.PreviewRenderUtility:Render (bool,bool)
+UnityEditor.MaterialEditor:DoRenderPreview (UnityEditor.PreviewRenderUtility,bool)
+UnityEditor.MaterialEditor:RenderStaticPreview (string,UnityEngine.Object[],int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreview (UnityEngine.Object,UnityEngine.Object[],string,int,int)
+UnityEditor.AssetPreviewUpdater:CreatePreviewForAsset (UnityEngine.Object,UnityEngine.Object[],string)
+
+(Filename: Library/PackageCache/com.unity.render-pipelines.universal@12.1.15/Runtime/Data/UniversalRenderPipelineAsset.cs Line: 468)
+
+ -> (artifact id: '809d109a900f184b448ac5d049aeb0ae') in 0.215534 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 27.330009 seconds.
+  path: Assets/Settings/UniversalRenderPipelineGlobalSettings.asset
+  artifactKey: Guid(8358eda82a9001e47835dd25b3df869c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Settings/UniversalRenderPipelineGlobalSettings.asset using Guid(8358eda82a9001e47835dd25b3df869c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2d4ccf463b3ddf61b28dc3e50712b2c1') in 0.108835 seconds 
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 3.050951 seconds.
+  path: Assets/Settings/UniversalRP.asset
+  artifactKey: Guid(681886c5eb7344803b6206f758bf0b1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Number of updated assets reloaded before import = 0
+Start importing Assets/Settings/UniversalRP.asset using Guid(681886c5eb7344803b6206f758bf0b1c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '66e73937119eb20d7da8d5d7fe708aea') in 0.206255 seconds 
+Number of asset objects unloaded after import = 4

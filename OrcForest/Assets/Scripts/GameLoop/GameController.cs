@@ -35,8 +35,9 @@ namespace OrcForest.GameLoop {
 			}
 		}
 
-		public void InstantiateGameObject( GameObject _gameObject ) {
-			Instantiate(_gameObject);
+		public void InstantiateEnemy( GameObject _gameObject ) {
+			Instantiate(_gameObject).GetComponent<EnemyFacade>()
+							.OnPlayerDamaged.AddListener(PlayerDamaged);
 		}
 		#endregion
 
