@@ -14,18 +14,21 @@ namespace OrcForest.Enemies {
         #region Variables
         [Header( "Weapon variables" )]
         public Weapons.DamageDealtEvent OnPlayerDamaged;
-		private AbstractWeapon[] weaponsArray;
+        [SerializeField]
+        private AbstractWeapon[] weaponsArray;
 
         [Header( "Misc variables" )]
         [SerializeField]
-        private Misc.HPController hpController;
+        private Misc.MVCHPController hpController;
         #endregion
 
 
         #region MonoBehaviour methods
         private void Awake() {
-            weaponsArray = GetComponentsInChildren<AbstractWeapon>(true);
-
+			if( weaponsArray == null || weaponsArray.Length == 0 ) {
+				weaponsArray = GetComponentsInChildren<AbstractWeapon>(true);
+			}
+			
             foreach( var auxWeapon in weaponsArray ) {
                 auxWeapon.OnDamageDealt.AddListener( DamagePlayer );
             }

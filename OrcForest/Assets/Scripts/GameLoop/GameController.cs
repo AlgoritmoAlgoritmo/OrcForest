@@ -15,6 +15,7 @@ namespace OrcForest.GameLoop {
 	public class GameController : MonoBehaviour {
 		#region Variables
 		public UnityEvent OnGameOver;
+		public UnityEvent OnGameFinished;
 		#endregion
 
 
@@ -22,6 +23,7 @@ namespace OrcForest.GameLoop {
 		public void EnemyDamaged( GameObject _enemyObject, int _damageAmount ) {
 			if( !_enemyObject.GetComponent<EnemyFacade>().ReceiveDamage( _damageAmount ) ) {
 				_enemyObject.GetComponent<EnemyFacade>().Destroy();
+				FinishGame();
 			}
 		}
 
@@ -42,6 +44,10 @@ namespace OrcForest.GameLoop {
 
 		public void ResumeGame() {
 			Time.timeScale = 1;
+		}
+
+		public void FinishGame() {
+			OnGameFinished.Invoke();
 		}
 		#endregion
 
