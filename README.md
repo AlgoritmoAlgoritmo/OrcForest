@@ -6,6 +6,7 @@ You can play it in your browser for free at:
 https://irisgamedev.itch.io/orc-forest
 
 
+
 The development:
 ----------------
 
@@ -13,11 +14,13 @@ It took me 8 days working as a solo. I wrote all of the code
 (except by the effects system), made the characters and 
 projectiles sprites, the animations and timelines by myself.
 
+
 The tools I used:
   * Game Engine: Unity
   * Languages: C#
   * IDE: VisualStudio, Notepad++ (xD)
   * 2D graphic asset editor: Piskel, Gimp
+
 
 Here are the external packages/resources I used:
   * Music: "Victory from Within" from Vinarco's Music Pack
