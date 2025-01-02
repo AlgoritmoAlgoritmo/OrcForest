@@ -5,8 +5,6 @@
 */
 
 
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 
@@ -17,12 +15,15 @@ namespace OrcForest.Misc {
 		private Transform target;
 		[SerializeField]
 		private Transform[] transformsToRotate;
+		[SerializeField]
+		private bool isTrackingTarget = true;
 		#endregion
 
 
 		#region MonoBehaviour methods
 		private void FixedUpdate() {
-			UpdateTargetsRotation();
+			if( isTrackingTarget )
+				UpdateTargetsRotation();
 		}
 		#endregion
 		

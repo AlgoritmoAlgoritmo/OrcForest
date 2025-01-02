@@ -33627,6 +33627,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1233557729}
   - component: {fileID: 1233557730}
+  - component: {fileID: 1233557731}
   m_Layer: 7
   m_Name: WeaponsPhase03
   m_TagString: Untagged
@@ -33673,6 +33674,28 @@ MonoBehaviour:
   - {fileID: 491767136}
   - {fileID: 1350480260}
   - {fileID: 711369276}
+  isTrackingTarget: 1
+--- !u!95 &1233557731
+Animator:
+  serializedVersion: 5
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1233557728}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 0}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1001 &1234614354
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -51983,6 +52006,8 @@ PlayableDirector:
     value: {fileID: 2076169580}
   - key: {fileID: -8507044303339074556, guid: 4b4452cc165ac974e84a30a978b4ef1b, type: 2}
     value: {fileID: 1233557728}
+  - key: {fileID: 6432127799640829544, guid: 4b4452cc165ac974e84a30a978b4ef1b, type: 2}
+    value: {fileID: 1233557731}
   m_ExposedReferences:
     m_References: []
 --- !u!95 &2076169579
