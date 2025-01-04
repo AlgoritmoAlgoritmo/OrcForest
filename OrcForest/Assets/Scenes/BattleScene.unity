@@ -13802,7 +13802,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 243835227455301830, guid: a2f7a92f0aff56448bfc6ea84ca7502c, type: 2}
   m_audioClip: {fileID: 8300000, guid: c90d57133507bca499f7e48c34f82eff, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.7
+  m_Volume: 0.4
   m_Pitch: 1
   Loop: 1
   Mute: 0
@@ -34045,6 +34045,8 @@ GameObject:
   - component: {fileID: 1263845142}
   - component: {fileID: 1263845141}
   - component: {fileID: 1263845143}
+  - component: {fileID: 1263845144}
+  - component: {fileID: 1263845145}
   m_Layer: 0
   m_Name: OrcDmgEffect
   m_TagString: Untagged
@@ -34066,6 +34068,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Feedbacks:
   - {fileID: 1263845143}
+  - {fileID: 1263845144}
+  - {fileID: 1263845145}
   InitializationMode: 2
   SafeMode: 3
   AutoPlayOnStart: 0
@@ -34155,6 +34159,85 @@ MonoBehaviour:
   InstantColor: {r: 0, g: 0, b: 0, a: 0}
   FlipX: 0
   FlipY: 0
+--- !u!114 &1263845144
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1263845140}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0c2ce51367856bd49b72678cc4263225, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Active: 1
+  Label: Sound
+  Chance: 100
+  Timing:
+    TimescaleMode: 0
+    InitialDelay: 0
+    CooldownDuration: 0
+    NumberOfRepeats: 0
+    RepeatForever: 0
+    DelayBetweenRepeats: 1
+    Sequence: {fileID: 0}
+    TrackID: 0
+    Quantized: 0
+    TargetBPM: 120
+  DebugActive: 0
+  Sfx: {fileID: 8300000, guid: dd60d36f3955a534b98a628230acd3d0, type: 3}
+  RandomSfx: []
+  TestButton: 0
+  TestStopButton: 0
+  PlayMethod: 3
+  PoolSize: 5
+  MinVolume: 1
+  MaxVolume: 1
+  MinPitch: 1
+  MaxPitch: 1
+  SfxAudioMixerGroup: {fileID: 243433762054182748, guid: a2f7a92f0aff56448bfc6ea84ca7502c, type: 2}
+--- !u!114 &1263845145
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1263845140}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0c2ce51367856bd49b72678cc4263225, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Active: 1
+  Label: Sound
+  Chance: 100
+  Timing:
+    TimescaleMode: 1
+    InitialDelay: 0
+    CooldownDuration: 2
+    NumberOfRepeats: 0
+    RepeatForever: 0
+    DelayBetweenRepeats: 1
+    Sequence: {fileID: 0}
+    TrackID: 0
+    Quantized: 0
+    TargetBPM: 120
+  DebugActive: 0
+  Sfx: {fileID: 0}
+  RandomSfx:
+  - {fileID: 8300000, guid: 0f7e8685eb99a0f418d3686c6ed9cd77, type: 3}
+  - {fileID: 8300000, guid: a824c99dcadbb5840bc105c357037ef4, type: 3}
+  - {fileID: 8300000, guid: 518825c1dfc3f1744af1667ccd74dac6, type: 3}
+  TestButton: 0
+  TestStopButton: 0
+  PlayMethod: 2
+  PoolSize: 10
+  MinVolume: 1
+  MaxVolume: 1
+  MinPitch: 1
+  MaxPitch: 1
+  SfxAudioMixerGroup: {fileID: 243522939631357066, guid: a2f7a92f0aff56448bfc6ea84ca7502c, type: 2}
 --- !u!1 &1271001398
 GameObject:
   m_ObjectHideFlags: 0
@@ -51653,6 +51736,8 @@ GameObject:
   - component: {fileID: 2059408873}
   - component: {fileID: 2059408875}
   - component: {fileID: 2059408876}
+  - component: {fileID: 2059408877}
+  - component: {fileID: 2059408878}
   m_Layer: 0
   m_Name: PlayerTakesDmgEffect
   m_TagString: Untagged
@@ -51689,6 +51774,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Feedbacks:
   - {fileID: 2059408876}
+  - {fileID: 2059408878}
+  - {fileID: 2059408877}
   InitializationMode: 2
   SafeMode: 3
   AutoPlayOnStart: 0
@@ -51761,6 +51848,85 @@ MonoBehaviour:
     m_NumColorKeys: 2
     m_NumAlphaKeys: 3
   InstantColor: {r: 0, g: 0, b: 0, a: 0}
+--- !u!114 &2059408877
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2059408872}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0c2ce51367856bd49b72678cc4263225, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Active: 1
+  Label: Sound
+  Chance: 100
+  Timing:
+    TimescaleMode: 0
+    InitialDelay: 0.2
+    CooldownDuration: 0.3
+    NumberOfRepeats: 0
+    RepeatForever: 0
+    DelayBetweenRepeats: 1
+    Sequence: {fileID: 0}
+    TrackID: 0
+    Quantized: 0
+    TargetBPM: 120
+  DebugActive: 0
+  Sfx: {fileID: 0}
+  RandomSfx:
+  - {fileID: 8300000, guid: d013cd2b36d800a40bb1b219d9a3e7c6, type: 3}
+  - {fileID: 8300000, guid: f7110aa24850f814ab4838eda08d978a, type: 3}
+  TestButton: 0
+  TestStopButton: 0
+  PlayMethod: 2
+  PoolSize: 10
+  MinVolume: 1
+  MaxVolume: 1
+  MinPitch: 1
+  MaxPitch: 1
+  SfxAudioMixerGroup: {fileID: 243522939631357066, guid: a2f7a92f0aff56448bfc6ea84ca7502c, type: 2}
+--- !u!114 &2059408878
+MonoBehaviour:
+  m_ObjectHideFlags: 2
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2059408872}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0c2ce51367856bd49b72678cc4263225, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Active: 1
+  Label: Sound
+  Chance: 100
+  Timing:
+    TimescaleMode: 0
+    InitialDelay: 0
+    CooldownDuration: 0.3
+    NumberOfRepeats: 0
+    RepeatForever: 0
+    DelayBetweenRepeats: 1
+    Sequence: {fileID: 0}
+    TrackID: 0
+    Quantized: 0
+    TargetBPM: 120
+  DebugActive: 0
+  Sfx: {fileID: 0}
+  RandomSfx:
+  - {fileID: 8300000, guid: 4ecd19cc98edb854697d2a039ca3b7b0, type: 3}
+  TestButton: 0
+  TestStopButton: 0
+  PlayMethod: 2
+  PoolSize: 10
+  MinVolume: 1
+  MaxVolume: 1
+  MinPitch: 1
+  MaxPitch: 1
+  SfxAudioMixerGroup: {fileID: 243433762054182748, guid: a2f7a92f0aff56448bfc6ea84ca7502c, type: 2}
 --- !u!114 &2063586105 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 2398336160170659708, guid: 91be0db1a61999d44bdf5edbc1180d64, type: 3}
