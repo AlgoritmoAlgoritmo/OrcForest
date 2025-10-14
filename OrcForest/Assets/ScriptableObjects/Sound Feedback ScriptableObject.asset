@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 91edf3f8c50abca41bba4a46e92802a5, type: 3}
+  m_Name: Sound Feedback ScriptableObject
+  m_EditorClassIdentifier: 
+  soundFile: {fileID: 8300000, guid: c90d57133507bca499f7e48c34f82eff, type: 3}
+  audioSource: {fileID: 0}
+  audioMixerGroup: {fileID: 0}

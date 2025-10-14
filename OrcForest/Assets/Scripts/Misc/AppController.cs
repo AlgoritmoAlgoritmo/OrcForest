@@ -20,7 +20,7 @@ namespace OrcForest.Misc {
 		}
 
 		public void ReloadScene() {
-			SceneManager.LoadScene( 0 );
+			SceneManager.LoadScene( SceneManager.GetActiveScene().name );
 		}
 		#endregion    
 	}
