@@ -12,10 +12,23 @@ using UnityEngine.SceneManagement;
 namespace OrcForest.Misc {
 	public class AppController : MonoBehaviour {
 		#region Variables
+		[SerializeField]
+		private GameObject mobileUIParent;
+		[SerializeField]
+		private PlayerDataScriptableObject playerData;
 		#endregion
 
-		#region Public methods
-		public void LoadScene( string _sceneName ) {
+		#region MonoBehaviour methods
+		private void Start() {
+			if( mobileUIParent ) {
+				mobileUIParent.SetActive( playerData.IsUsingMobileInput );
+			}
+		}
+        #endregion
+
+
+        #region Public methods
+        public void LoadScene( string _sceneName ) {
 			SceneManager.LoadScene( _sceneName );
 		}
 
